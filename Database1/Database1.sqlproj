@@ -59,6 +59,7 @@
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Functions\" />
+    <Folder Include="Snapshots" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\OLE DB Destination.sql" />
@@ -72,5 +73,8 @@
     <Build Include="dbo\Tables\A.sql" />
     <Build Include="dbo\Functions\fn_StandardizeVehicleMake.sql" />
     <Build Include="dbo\Functions\fn_StandardizeState.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Snapshots\Database1_20250406_18-38-58.dacpac" />
   </ItemGroup>
 </Project>
